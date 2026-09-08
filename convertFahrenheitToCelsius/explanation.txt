@@ -1,0 +1,9 @@
+The reason they differ clicks into precedence. When
+introducing parenthesis, that has among the highest
+precedence over multiplication, division, addition,
+and subtraction. The non-parenthesis version is wrong
+because 100 gets divided by 180, which get multiplied
+by the passed fahrenheit value.. and then it finally
+gets subtracted by 32, whereas 32 was supposed to be
+already subtracted from the passed fahrenheit value
+before it got multiplied.

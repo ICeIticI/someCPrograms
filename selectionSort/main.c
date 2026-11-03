@@ -7,7 +7,7 @@ Goal: Program which sorts a randomized unsorted array into an array that is sort
 
 #include <stdlib.h>
 #include <stdio.h>
-#include <string.h>
+#include <string.h> // used for memcpy
 
 void selectionSort(int list[], int size) {
     int tempData[] = list; // Temporary holding spot of the original array while we change the passed one.
